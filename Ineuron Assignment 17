@@ -1,0 +1,38 @@
+Q1.   Write a python program to store all programming language known to you using set.
+Ans.   s1={e for e in input("Enter All Programming Language What You Knows: ").split(',')}
+       print(s1)
+       
+Q2.   Write a python program to store your own Information.{name,age,gender,so..on}
+Ans.   s1={e for e in input("Enter Your Data: Name:- Age:- Gender:- Add.:- Con.:- ").split(',')}
+       print(s1)
+       
+Q3.   Write a python script to get the data type of the set.
+Ans.   s1={e for e in input("Enter Some Data arranged by Comma: ").split(',')}
+       print(s1,"\n",type(s1))
+       
+Q4.   Write a python program to find if "python" is in the set. thisset={"Java","Python"."C++"}
+Ans.   thisset{"Java","Python","C++"}
+       for e in s1:
+            if "python" in s1:
+                  print("Yes")
+                  break
+            else:
+                 print("No")
+                 break
+                 
+Q5.   Write a pyhton program to add items from another set to current set.thisset={"Java","Python","SQL"},secondset{"C","C++","NoSql"}
+Ans.   thisset={"Java","Python","SQL"}
+       secondset{"C","C++","NoSql"}
+       thisset(list(thisset)
+       secondset(list(secondset))
+       d=thisset+secondset
+       d=set(d)
+       print(d)
+       
+Q6.          
+
+
+
+
+
+
