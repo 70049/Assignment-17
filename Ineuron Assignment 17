@@ -23,16 +23,38 @@ Ans.   thisset{"Java","Python","C++"}
 Q5.   Write a pyhton program to add items from another set to current set.thisset={"Java","Python","SQL"},secondset{"C","C++","NoSql"}
 Ans.   thisset={"Java","Python","SQL"}
        secondset{"C","C++","NoSql"}
-       thisset(list(thisset)
+       thisset(list(thisset))
        secondset(list(secondset))
        d=thisset+secondset
        d=set(d)
        print(d)
        
-Q6.          
-
-
-
-
-
-
+Q6.   Write a python progarm to add elements of the list to a set.
+                thisset={"Pyhton","Django","Javascript"}
+                mylist=["Java","C"]
+Ans.    thisset={"Pyhton","Django","Javascript"}
+        mylist=["Java","C"]
+        thisset=list(thisset)
+        d=(mylist+thisset)
+        d=set(d)
+        print(d)
+        
+Q7.   Write a python program to remove last item from the set. thisset{"pyhton","Django","Javascript","SQL"}
+Ans.    thisset={"pyhton","Django","Javascript","SQL"}
+        thisset.remove("SQL")
+        print(thisset)
+        
+Q8.   Write  a python program to delete the set completely.
+Ans.    s1={"pyhton","Django","Javascript","SQL"}
+        s1.clear()
+        
+Q9.   Write a python program to loop through the set and print value.
+       s1={"Java","pyhton""Django","C++"}
+Ans.   s1={e for e in{"Java","pyhton""Django","C++"}}
+       print(s1)
+       
+Q10.  Write a python script to find a maximum and minimum value of a set.
+Ans.   s1={e for e in input("Enter value: ").split(',')}
+       s1=list(s1)
+       print(max(s1))
+       print(min(s1))
